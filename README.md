@@ -35,9 +35,9 @@ pip install -r requirements.txt
 
 3.	Video Setup:
 Place your climbing video in the project directory or specify the path to the video in the code:
-
+```
 cap = cv2.VideoCapture('path_to_your_video.mp4')
-
+```
 
 4.	Variable Configuration:
 Adjust the variables in the code as needed:
@@ -48,9 +48,9 @@ Adjust the variables in the code as needed:
 Running the Program
 
 Run the script using Python:
-
+```
 python main.py
-
+```
 Features
 	•	Hold Detection: Identifies stable positions where the climber’s limbs engage with holds.
 	•	Center of Gravity Calculation: Dynamically calculates the center of gravity to predict climber’s movements.
